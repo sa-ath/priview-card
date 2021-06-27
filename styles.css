@@ -1,0 +1,54 @@
+body {
+    background-color:hsl(233, 47%, 7%);
+  }
+
+.cards {
+    background-color: hsl(244, 38%, 16%);
+    margin: 10% 15%;
+    border-radius: 1%;
+}
+
+.text-padding {
+    padding: 4%;
+    padding-top: 5%;
+    padding-right: 12%;
+}
+
+.img-beauty{
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+  }
+
+img{
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @media only screen and (max-width: 992px) {
+    .mobile  {
+      flex-direction: column-reverse;
+    }
+    img{
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+        border-bottom-right-radius: 0;
+      }
+
+    .img-beauty{
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+        border-bottom-right-radius: 0;
+      }
+    body{
+        text-align: center;
+    }
+  }
+
+  
